@@ -38,6 +38,7 @@ Here is the list of deliverables for the analysis of the school district:
 
 - How does replacing the ninth-grade scores affect the math and reading scores by grade?
 	- The math and reading scores by grade were only affected in the 9th grade column with no score available for Thomas High School, as shown in the photo below, but all the other grade and school scores are accurate.
+
 	![Reading_Scores_By_Grade](challenge/resources/reading_scores_by_grade_df.PNG)
 	![Math_Scores_By_Grade](challenge/resources/math_scores_by_grade_df.PNG)
 
