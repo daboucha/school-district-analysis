@@ -37,10 +37,10 @@ Here is the list of deliverables for the analysis of the school district:
 	![Top_Schools](challenge/resources/top_schools_df.PNG)
 
 - How does replacing the ninth-grade scores affect the math and reading scores by grade?
-	- The math and reading scores by grade were only affected in the 9th grade column with no score available for Thomas High School, as shown in the photo below, but all the other grade and school scores are accurate.
+	- The math and reading scores by grade were only affected in the 9th grade column with no score available for Thomas High School, as shown accordingly in the photo below, but all the other grade and school scores are accurate.
 
-	![Reading_Scores_By_Grade](challenge/resources/reading_scores_by_grade_df.PNG)
 	![Math_Scores_By_Grade](challenge/resources/math_scores_by_grade_df.PNG)
+	![Reading_Scores_By_Grade](challenge/resources/reading_scores_by_grade_df.PNG)
 
 - How does replacing the ninth-grade scores affect scores by school spending, size, and type?
 	- The analysis of scores based on school spending, size, and type were only impacted in that they used slightly smaller sample size. But the code did not require any alterations because the function to calculate the appropriate averages we required, from the updated per school dataframe, automatically omits any null values in the data.
