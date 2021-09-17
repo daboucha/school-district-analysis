@@ -22,12 +22,12 @@ Here is the list of deliverables for the analysis of the school district:
 ## Analysis Results
 - How is the district summary affected?
 	- I was able to omit all of the scores belonging to the 9th graders at Thomas High School, so the percentages shown in the district summary below are accurate for the district. Although, this caused the sample size of the data to decrease slightly and that should be taken into account when investigating any anomalies from the norm.
-
 	![District_Summary](challenge/resources/district_summary_df.PNG)
 
 - How is the school summary affected?
 	- The school summary was accurate for all schools with the exception of Thomas High School. 
 	![Per_School_Summary](challenge/resources/per_school_summary_df.PNG)
+	
 	- The original analysis, as shown in the photo above, gives the wrong impression on the percentage of their students with passing grades in math and english.
 	- I was able to adjust the code to have it omit the 9th graders from the calculation so that the data reflects the accurate percentages for Thomas High School. Although, once again, we must take into account that the analysis for Thomas High School is now working with a much smaller sample size than the other schools in the distrcit.
 	![Per_School_Summary_Updated](challenge/resources/per_school_summary_updated_df.PNG)
